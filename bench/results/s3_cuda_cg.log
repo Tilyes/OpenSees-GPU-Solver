@@ -1,0 +1,12 @@
+
+
+         OpenSees -- Open System For Earthquake Engineering Simulation
+                 Pacific Earthquake Engineering Research Center
+        Version 3.8.0 64-Bit (1caf52d205c44d6fe53d82e201ed69086cf41718)
+
+      (c) Copyright 1999-2016 The Regents of the University of California
+                              All Rights Reserved
+  (Copyright and Disclaimer @ http://www.berkeley.edu/OpenSees/copyright.html)
+
+
+RESULT scenario=s3 solver=cusp-cg np=1 ndof=14883 nsteps=200 t_gravity=0.503 t_transient=31.432 t_perstep=0.15716 tipDisp=0.18044347339666233498

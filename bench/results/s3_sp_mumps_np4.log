@@ -1,0 +1,34 @@
+Secondary Process Running 2
+Secondary Process Running 3
+Secondary Process Running 1
+Primary Process Running OpenSees Interpreter 0
+
+
+         OpenSees -- Open System For Earthquake Engineering Simulation
+                 Pacific Earthquake Engineering Research Center
+        Version 3.8.0 64-Bit (49821503e3a42047af7c909fbd44d3ba26a2801b)
+
+      (c) Copyright 1999-2016 The Regents of the University of California
+                              All Rights Reserved
+  (Copyright and Disclaimer @ http://www.berkeley.edu/OpenSees/copyright.html)
+
+
+DomainPartitioner::partition() - Start
+DomainPartitioner::partition - Successful partition. Now redistributing data accordingly.
+  * Identifying components to transfer.
+     + Elements.
+     + Nodes.
+     + Boundary Nodes.
+     + MP constraints.
+     + MP constraints (2nd pass).
+  * Sending nodes.
+  * Sending elements.
+  * Sending Load Patterns
+  * Sending homogeneous SP Constraints`
+  * Sending MP Constraints
+DomainPartitioner::partition() - Done
+RESULT scenario=s3 solver=mumps np=4 ndof=14883 nsteps=200 t_gravity=1.157 t_transient=142.598 t_perstep=0.71299 tipDisp=0.18044347032802871000
+Process Terminating 1
+Process Terminating 3
+Process Terminating 2
+Process Terminating

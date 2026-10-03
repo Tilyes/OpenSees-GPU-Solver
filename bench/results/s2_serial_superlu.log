@@ -1,0 +1,12 @@
+
+
+         OpenSees -- Open System For Earthquake Engineering Simulation
+                 Pacific Earthquake Engineering Research Center
+        Version 3.8.0 64-Bit (49821503e3a42047af7c909fbd44d3ba26a2801b)
+
+      (c) Copyright 1999-2016 The Regents of the University of California
+                              All Rights Reserved
+  (Copyright and Disclaimer @ http://www.berkeley.edu/OpenSees/copyright.html)
+
+
+RESULT scenario=s2 solver=superlu np=1 ndof=43350 t_model=0.106 t_analyze=107.526 t_total=107.632 tipDisp=52.81674053985805272760

@@ -1,0 +1,11 @@
+*.cpp   text eol=lf
+*.h     text eol=lf
+*.c     text eol=lf
+*.f     text eol=lf
+*.F     text eol=lf
+*.f90   text eol=lf
+*.tcl   text eol=lf
+*.cmake text eol=lf
+*.sh    text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf

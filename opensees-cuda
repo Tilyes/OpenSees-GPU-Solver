@@ -1,0 +1,20 @@
+#!/bin/bash
+# opensees-cuda — OpenSees GPU 版启动包装器
+#
+# 为什么需要它：本机 /lib/x86_64-linux-gnu/ 下有一个手动安装的 Linux 原生
+# NVIDIA 驱动库（libcuda.so.580.173.02），其软链接 libcuda.so.1 会抢占加载。
+# WSL 中 GPU 只能通过 /usr/lib/wsl/lib 的 shim 访问，原生驱动枚举不到 GPU，
+# 会导致 "no CUDA-capable device is detected"。
+#
+# 永久修复（删除残留软链接，需 sudo，只需执行一次）：
+#   sudo rm /lib/x86_64-linux-gnu/libcuda.so.1 /lib/x86_64-linux-gnu/libcuda.so
+#   sudo ldconfig
+# 修复后本包装器依然可用（LD_PRELOAD 无害冗余）。
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+if [ -f /usr/lib/wsl/lib/libcuda.so.1 ]; then
+    export LD_PRELOAD="/usr/lib/wsl/lib/libcuda.so.1${LD_PRELOAD:+:$LD_PRELOAD}"
+fi
+
+exec "$SCRIPT_DIR/build-cuda/OpenSees" "$@"

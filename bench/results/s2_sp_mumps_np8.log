@@ -1,0 +1,69 @@
+Secondary Process Running 7
+Secondary Process Running 6
+Primary Process Running OpenSees Interpreter 0
+
+
+         OpenSees -- Open System For Earthquake Engineering Simulation
+                 Pacific Earthquake Engineering Research Center
+        Version 3.8.0 64-Bit (49821503e3a42047af7c909fbd44d3ba26a2801b)
+
+      (c) Copyright 1999-2016 The Regents of the University of California
+                              All Rights Reserved
+  (Copyright and Disclaimer @ http://www.berkeley.edu/OpenSees/copyright.html)
+
+
+Secondary Process Running 1
+Secondary Process Running 2
+Secondary Process Running 3
+Secondary Process Running 4
+Secondary Process Running 5
+DomainPartitioner::partition() - Start
+DomainPartitioner::partition - Successful partition. Now redistributing data accordingly.
+  * Identifying components to transfer.
+     + Elements.
+     + Nodes.
+     + Boundary Nodes.
+     + MP constraints.
+     + MP constraints (2nd pass).
+  * Sending nodes.
+  * Sending elements.
+  * Sending Load Patterns
+  * Sending homogeneous SP Constraints`
+  * Sending MP Constraints
+DomainPartitioner::partition() - Done
+WARNING: CTestNormUnbalance::test() - failed to converge 
+after: 1 iterations  current Norm: 5.01769e-08 (max: 1e-08, Norm deltaX: WARNING: CTestNormUnbalance::test() - failed to converge 
+after: 1 iterations  current Norm: 5.01769e-08 (max: 1e-08, Norm deltaX: WARNING: CTestNormUnbalance::test() - failed to converge 
+after: 1 iterations  current Norm: 5.01769e-08 (max: 1e-08, Norm deltaX: WARNING: CTestNormUnbalance::test() - failed to converge 
+after: 1 iterations  current Norm: 5.01769e-08 (max: 1e-08, Norm deltaX: WARNING: CTestNormUnbalance::test() - failed to converge 
+after: 1 iterations  current Norm: 5.01769e-08 (max: 1e-08, Norm deltaX: WARNING: CTestNormUnbalance::test() - failed to converge 
+after: 1WARNING: CTestNormUnbalance::test() - failed to converge 
+after: 1 iterations  current Norm: 5.01769e-08 (max: 1e-08, Norm deltaX:  iterations  current Norm: 5.01769e-08 (max: 1e-08, Norm deltaX: 2597.41)
+NewtonRaphson::solveCurrentStep() -the ConvergenceTest object failed in test()
+StaticDomainDecompositionAnalysis::analyze() - the Algorithm failed with domain at load factor 1
+2597.41)
+NewtonRaphson::solveCurrentStep() -the ConvergenceTest object failed in test()
+StaticDomainDecompositionAnalysis::analyze() - the Algorithm failed with domain at load factor 1
+2597.41)
+NewtonRaphson::solveCurrentStep() -the ConvergenceTest object failed in test()
+StaticDomainDecompositionAnalysis::analyze() - the Algorithm failed with domain at load factor 1
+2597.41)
+NewtonRaphson::solveCurrentStep() -the ConvergenceTest object failed in test()
+StaticDomainDecompositionAnalysis::analyze() - the Algorithm failed with domain at load factor 1
+2597.41)
+NewtonRaphson::solveCurrentStep() -the ConvergenceTest object failed in test()
+StaticDomainDecompositionAnalysis::analyze() - the Algorithm failed with domain at load factor 1
+2597.41)
+NewtonRaphson::solveCurrentStep() -the ConvergenceTest object failed in test()
+StaticDomainDecompositionAnalysis::analyze() - the Algorithm failed with domain at load factor 1
+2597.41)
+NewtonRaphson::solveCurrentStep() -the ConvergenceTest object failed in test()
+StaticDomainDecompositionAnalysis::analyze() - the Algorithm failed with domain at load factor 1
+MPI_Channel::recvVector() - incorrect number of entries for Vector received: -32766 expected: 41616
+MPI_Channel::recvVector() - incorrect number of entries for Vector received: -32766 expected: 41616
+MPI_Channel::recvVector() - incorrect number of entries for Vector received: -32766 expected: 41616
+MPI_Channel::recvVector() - incorrect number of entries for Vector received: -32766 expected: 41616
+MPI_Channel::recvVector() - incorrect number of entries for Vector received: -32766 expected: 41616
+MPI_Channel::recvVector() - incorrect number of entries for Vector received: -32766 expected: 41616
+MPI_Channel::recvVector() - incorrect number of entries for Vector received: -32766 expected: 41616
+RESULT DNF rc=124

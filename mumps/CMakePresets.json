@@ -1,0 +1,25 @@
+{
+  "version": 3,
+
+"configurePresets": [
+{
+  "name": "phony"
+}
+],
+"testPresets": [
+{
+  "name": "default",
+  "configurePreset": "phony",
+  "output": {
+    "outputOnFailure": true,
+    "verbosity": "default"
+  },
+  "execution": {
+    "noTestsAction": "error",
+    "scheduleRandom": true,
+    "stopOnFailure": false,
+    "timeout": 10
+  }
+}
+]
+}
